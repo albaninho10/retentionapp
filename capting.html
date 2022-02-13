@@ -1,0 +1,31 @@
+    <!DOCTYPE html>
+        <html>
+            <head>
+            <link rel="stylesheet" href="style.css">
+            <title>test avis</title>
+            <script src="https://kit.fontawesome.com/b235a25fd9.js" crossorigin="anonymous"></script>
+            </head>
+            <body>
+                <div class="Feedlive_button">
+                    <p>Avis</p>
+                </div>
+                <div class="modal">
+                <div class="modal-content">
+                    <div>
+                        <p>Que pensez-vous de Newbrands ?</p>
+                    </div>
+                    <!-- Insérer le code de la fenêtre de dialogue -->
+                    <div class="row">
+                        <img class="feedlive_happy" onclick="addUpHappy()" src="img/Happy_Emoji_Icon_5c9b7b25-b215-4457-922d-fef519a08b06.png" alt="Happy">
+                        <img class="feedlive_neutral" onclick="addUpNeutral()" src="img/Neutral.png" alt="neutre">
+                        <img class="feedlive_sad" onclick="addUpSad()" src="img/Super_Angry_Face_Emoji_ios10_1024x1024.png" alt="Angry">
+                    </div>
+                    <form id="form" onsubmit="return false;">
+                        <input type="text" id="userInput" />
+                        <input type="submit" onclick="othername();" />
+                    </form>
+                </div>
+                </div>
+                <script type="text/javascript" src="script.js"></script>
+            </body>
+    </html>
